@@ -26,7 +26,7 @@ app.get("/", (req: Request, res: Response) => {
 
 app.listen(process.env.PORT, () => {
   MongoConnection();
-  console.log("Backend running on PORT:", process.env.PORT);
+  console.log("Backend running on PORT :", process.env.PORT);
 });
 // Export the app as a Vercel serverless function
 export default app;

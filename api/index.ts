@@ -19,7 +19,7 @@ app.use("/cv", cvRouter);
 
 app.get("/", (req: Request, res: Response) => {
   return res.json({
-    message: "Health is ok !",
+    message: "Health is ok... !",
   });
 });
 

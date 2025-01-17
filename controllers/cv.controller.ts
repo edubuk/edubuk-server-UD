@@ -47,11 +47,11 @@ type PersonalDetailsType = {
   profession: string;
   imageUrl: string;
   phoneNumber: string;
-  linkedinProfile:string;
-  twitterProfile:string;
-  telegramProfile:string;
-  instagramProfile:string;
-  githubProfile:string;
+  linkedinProfile?:string;
+  twitterProfile?:string;
+  telegramProfile?:string;
+  instagramProfile?:string;
+  githubProfile?:string;
   years_of_experience: string;
 };
 
@@ -92,11 +92,11 @@ interface RequestBodyType {
   profession: string;
   imageUrl: string;
   phoneNumber: string;
-  linkedinProfile:string;
-  twitterProfile:string;
-  telegramProfile:string;
-  instagramProfile:string;
-  githubProfile:string;
+  linkedinProfile?:string;
+  twitterProfile?:string;
+  telegramProfile?:string;
+  instagramProfile?:string;
+  githubProfile?:string;
   Years_of_experience: string;
   profile_summary: string;
   class10SchoolName: string;

@@ -21,6 +21,7 @@ type personalDetailsObjectType = {
   twitterProfile:string;
   telegramProfile:string;
   instagramProfile:string;
+  githubProfile:string;
   years_of_experience: string;
 };
 type EducationObjectType = {
@@ -116,6 +117,7 @@ const CvSchema: Schema<cvSchemaDataType> = new Schema(
       twitterProfile:{type:String},
       telegramProfile:{type:String},
       instagramProfile:{type:String},
+      githubProfile:{type:String},
       years_of_experience: { type: String, required: true },
     },
     education: {
